@@ -1,0 +1,36 @@
+# --- Python & Sistema ---
+__pycache__/
+*.pyc
+.DS_Store
+
+# --- Entornos Virtuales ---
+venv/
+env/
+.venv/
+
+# --- Bases de Datos (¡MUY IMPORTANTE!) ---
+
+*.db
+*.sqlite3
+sophie_memory.db
+
+# --- Archivos Generados (Output) ---
+
+*.png
+*.jpg
+*.jpeg
+*.mp4
+output/
+temp/
+
+
+.env
+config_local.py
+
+# --- Modelos de IA ---
+
+models/
+checkpoints/
+*.safetensors
+*.ckpt
+*.bin
